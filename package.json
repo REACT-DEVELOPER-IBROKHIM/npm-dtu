@@ -1,0 +1,33 @@
+{
+  "name": "dtu",
+  "version": "1.0.2",
+  "description": "This is all data type utilities for saving time and easy working process",
+  "main": "index.js",
+  "scripts": {
+    "test": "dtu test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/REACT-DEVELOPER-IBROKHIM/npm-dtu.git"
+  },
+  "keywords": [
+    "data",
+    "data",
+    "types",
+    "utilities",
+    "array",
+    "object",
+    "string",
+    "number",
+    "save",
+    "time",
+    "easy",
+    "work"
+  ],
+  "author": "Ibrokhim Jalalov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/REACT-DEVELOPER-IBROKHIM/npm-dtu/issues"
+  },
+  "homepage": "https://github.com/REACT-DEVELOPER-IBROKHIM/npm-dtu#readme"
+}

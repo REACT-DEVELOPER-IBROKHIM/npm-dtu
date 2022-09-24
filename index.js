@@ -1,0 +1,43 @@
+  String.prototype.revorder = function (...params) {
+    if(typeof params[0] === 'string'){
+      return this.split(params[0]).reverse().join(params[1] || "");
+    }
+    else{
+      throw "Expected at least one argument for splitting symbol, but got undefined.";
+    }
+  }
+
+ 
+  String.prototype.indentify = function(opType) {
+    return opType == "up" ? this.toUpperCase() : this.toLowerCase()
+  };
+
+  function changeLetter (str, type, param) {
+    const strCopy = str.split("");
+    if(typeof param === 'number' && str.charAt(param).match(/^[a-zA-Z]+$/)){
+      strCopy.splice(param, 1, str.charAt(param).indentify(type));
+      return strCopy.join("")
+    }
+    else if(typeof param === 'string' && param === "end") {
+      return str.slice(0, -1) + strCopy.pop().indentify(type);
+    }
+    else if(typeof param === 'number' && param >= str.length){
+      throw `Please enter number not greater than string. Method .up() is zero-based!`
+    }
+    else if(typeof param === "string" && !param || param === undefined){
+      return str.indentify(type);
+    }
+    else{
+      throw `Please enter valid number or string. Method .up() can include(<number> || "end" || undefined)`
+    }
+  }
+
+  String.prototype.up = function up (param){
+    return changeLetter(this, arguments.callee.name, param)
+  }
+  
+  String.prototype.low = function low (param){
+   return changeLetter(this, arguments.callee.name, param)
+  }
+
+  console.log("Hello".revorder(""))
