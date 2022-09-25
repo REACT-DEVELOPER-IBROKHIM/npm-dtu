@@ -5,4 +5,4 @@ import "./utils/string/upcase-lowcase/index.js";
 /**@revorder */
 import "./utils/string/revorder/index.js";
 
-console.log("Hello".up("end"));
+console.log("Hello".up("end")); 
