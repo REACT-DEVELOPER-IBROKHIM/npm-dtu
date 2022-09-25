@@ -3,6 +3,7 @@
   "version": "1.0.2",
   "description": "This is all data type utilities for saving time and easy working process",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "dtu test"
   },
