@@ -1,1 +1,1 @@
-# This is DTU stands for Data Type utilities
+# This is DTU stands for Data Type Utilities
