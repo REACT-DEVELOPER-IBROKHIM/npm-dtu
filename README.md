@@ -16,8 +16,8 @@ This package is used for saving time in simple and daily workflows. For example:
     * remove duplicates with a single method ( Array.removeDuplicates() )
     * easy filter with a single method which only leaves given data type values in array ( Array.arrOnly("string" || "number" || ... ))
     * ...
-
+ 
   3. Object modification
-  
+
     * Coming soon
     * ...
