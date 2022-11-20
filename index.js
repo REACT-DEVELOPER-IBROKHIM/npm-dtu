@@ -11,3 +11,6 @@ import "./utils/array/arr-only/index.js";
 
 /**@removeDuplicates */
 import "./utils/array/remove-duplicates/index.js";
+
+/**@isEqual */
+import "./global/compare/index.js";

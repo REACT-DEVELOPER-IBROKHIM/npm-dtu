@@ -6,18 +6,16 @@
 This package is used for saving time in simple and daily workflows. For example: 
   1. String modification
 
-    * uppercase first letter, last letter or any letter ( String.up( <number> || "end" || undefined ))
-    * lowercase first letter, last letter or any letter ( String.low( <number> || "end" || undefined ))
-    * easy reverse of letters ( String.revorder( <string> || string: ? ))
-    * ...
+  * uppercase first letter, last letter or any letter ( String.up( <number> || "end" || undefined ))
+  * lowercase first letter, last letter or any letter ( String.low( <number> || "end" || undefined ))
+  * easy reverse of letters ( String.revorder( <string> || string: ? ))
 
   2. Array modification
 
-    * remove duplicates with a single method ( Array.removeDuplicates() )
-    * easy filter with a single method which only leaves given data type values in array ( Array.arrOnly("string" || "number" || ... ))
-    * ...
+  * remove duplicates with a single method ( Array.removeDuplicates() )
+  * filter array which leaves only given data type ( Array.arrOnly("string" || "number" || ... ))
  
-  3. Object modification
+  3. Compare data types
 
-    * Coming soon
-    * ...
+  * compare data easily with isEqual() method ( <data>.isEqual(<comparedData>))
+    `true | false`
