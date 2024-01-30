@@ -1,4 +1,4 @@
-Object.prototype.isEqual = function(data){
+Object.prototype.isCompletelyEqual = function(data){
   if(compareDataType(this, data)){
     return checkDataType(this, data)
   }
@@ -14,12 +14,12 @@ function compareDataType(...args){
 }
 
 function checkDataType(actual, compared){
-  let isEqual;
+  let isCompletelyEqual;
   if(JSON.stringify(actual) === JSON.stringify(compared)){
-    isEqual = true
+    isCompletelyEqual = true
   }
   else{
-    isEqual = false
+    isCompletelyEqual = false
   }
-  return isEqual
+  return isCompletelyEqual
 }

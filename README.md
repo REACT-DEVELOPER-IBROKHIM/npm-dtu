@@ -1,7 +1,16 @@
 
 # DTU ( DATA TYPE UTILITIES )
 
-## DTU - stands for DATA TYPE UTILITIES
+How to use:
+
+  in ES6+
+
+  1. `import "dtu"`
+
+  in ES5 
+
+  2. `require "dtu"`
+
 
 This package is used for saving time in simple and daily workflows. For example: 
   1. String modification
