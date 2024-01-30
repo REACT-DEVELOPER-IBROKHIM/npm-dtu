@@ -1,6 +1,6 @@
 {
   "name": "dtu",
-  "version": "1.0.8",
+  "version": "1.0.10",
   "description": "This is all data type utilities for saving time and easy working process",
   "main": "index.js",
   "type": "module",

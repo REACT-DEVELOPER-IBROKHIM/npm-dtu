@@ -1,4 +1,4 @@
-function isEqual(resource1, resource2){
+function compare(resource1, resource2){
   if(compareDataType(resource1, resource2)){
     return checkDataType(resource1, resource2)
   }
@@ -23,3 +23,5 @@ function checkDataType(actual, compared){
   }
   return isCompletelyEqual
 }
+
+export default compare

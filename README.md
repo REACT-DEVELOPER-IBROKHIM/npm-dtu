@@ -26,5 +26,5 @@ This package is used for saving time in simple and daily workflows. For example:
  
   3. Compare data types
 
-  * compare data easily with isEqual() method ( <data>.isEqual(<comparedData>))
+  * compare data easily with isEqual() function ( <data>isEqual(<comparedData>))
     `true | false` 
