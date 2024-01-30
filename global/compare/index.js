@@ -1,6 +1,6 @@
-Object.prototype.isCompletelyEqual = function(data){
-  if(compareDataType(this, data)){
-    return checkDataType(this, data)
+function isEqual(resource1, resource2){
+  if(compareDataType(resource1, resource2)){
+    return checkDataType(resource1, resource2)
   }
   else{
     return false
